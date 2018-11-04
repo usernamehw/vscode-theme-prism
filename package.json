@@ -1,0 +1,34 @@
+{
+    "name": "prism",
+    "displayName": "Prism",
+    "description": "Prismjs default light theme",
+    "version": "0.0.1",
+    "publisher": "usernamehw",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/usernamehw/vscode-theme-prism"
+    },
+    "bugs": {
+        "url": "https://github.com/usernamehw/vscode-theme-prism/issues"
+    },
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "keywords": [
+        "vscode",
+        "themes",
+        "prism"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Prism",
+                "uiTheme": "vs",
+                "path": "./themes/Prism-color-theme.json"
+            }
+        ]
+    }
+}
