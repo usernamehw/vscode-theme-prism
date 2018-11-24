@@ -29,7 +29,6 @@
 		"statusBar.noFolderBackground": "#07a",
 		"statusBar.noFolderForeground": "#fff",
 		"statusBarItem.hoverBackground": "#70809050",
-		"gitDecoration.modifiedResourceForeground": "#07a",
 		"badge.foreground": "#fff",
 		"editorIndentGuide.activeBackground": "#5a6773",
 		"extensionButton.prominentBackground": "#690",
@@ -42,6 +41,10 @@
 		"textLink.activeForeground": "#dd4a68",
 		"editorLink.activeForeground": "#dd4a68",
 		"editorError.foreground": "#dd4a68",
+		"input.background": "#e9ebee",
+		"input.border": "#0000",
+		"statusBar.debuggingBackground": "#e907",
+		"gitDecoration.modifiedResourceForeground": "#0095d5"
 	},
 	"tokenColors": [
 		{
@@ -90,7 +93,8 @@
 			"name": "Operators",
 			"scope": [
 				"keyword.operator",
-				"storage.type.function.arrow"
+				"storage.type.function.arrow",
+				"constant.language.import-export-all"
 			],
 			"settings": {
 				"foreground": "#9a6e3a"
@@ -132,22 +136,14 @@
 		{
 			"scope": [
 				"support.variable.property.dom",
-				"support.variable.dom"
+				"support.variable.dom",
+				"support.variable.property",
+				"punctuation.separator.parameter"
 			],
 			"settings": {
 				"foreground": "#000000"
 			}
 		},
-		// {
-		// 	"name": "Variables",
-		// 	"scope": [
-		// 		"variable",
-		// 		"support.variable"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#7A3E9D"
-		// 	}
-		// },
 		{
 			"scope": [
 				"meta.template.expression punctuation.definition.template-expression",
@@ -173,13 +169,35 @@
 		{
 			"name": "Classes",
 			"scope": [
-				"entity.name.type",
 				"entity.other.inherited-class",
-				"support.class"
+				"support.class",
+				"new.expr entity.name.type"
 			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#DD4A68"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type",
+				"support.type.primitive",
+				"support.type.builtin",
+				"meta.type.annotation entity.name.type"
+			],
+			"settings": {
+				"foreground": "#708090"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.typeparameters",
+				"keyword.operator.type",
+				"keyword.operator.optional"
+			],
+			"settings": {
+				"foreground": "#e90",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -198,7 +216,8 @@
 				"constant.language.boolean"
 			],
 			"settings": {
-				"foreground": "#905"
+				"foreground": "#905",
+				"fontStyle": "bold"
 			}
 		},
 		{
