@@ -2,7 +2,7 @@
     "name": "prism",
     "displayName": "Prism",
     "description": "Prismjs default light theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "usernamehw",
     "repository": {
         "type": "git",
