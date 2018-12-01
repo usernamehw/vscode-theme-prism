@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.4 `01 Dec 2018`
+- Removed markup list color
+- Changed badge
+- Changed editor header
+
 ## 0.0.3 `30 Nov 2018`
 
 - Changed input colors

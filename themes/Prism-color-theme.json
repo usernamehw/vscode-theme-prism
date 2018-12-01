@@ -25,6 +25,7 @@
 		"tab.inactiveBackground": "#fff",
 		"tab.inactiveForeground": "#444",
 		"tab.activeForeground": "#000",
+		"editorGroupHeader.tabsBackground": "#ebe5e1",
 		"editorSuggestWidget.highlightForeground": "#07a",
 		"statusBar.noFolderBackground": "#07a",
 		"statusBar.noFolderForeground": "#fff",
@@ -36,7 +37,8 @@
 		"activityBar.background": "#fff",
 		"activityBar.foreground": "#000",
 		"activityBar.border": "#f2f2f2",
-		"badge.background": "#07a",
+		"badge.background": "#0095d5",
+		"activityBarBadge.background": "#0095d5",
 		"panelTitle.activeBorder": "#07a",
 		"textLink.activeForeground": "#dd4a68",
 		"editorLink.activeForeground": "#dd4a68",
@@ -227,6 +229,15 @@
 			}
 		},
 		{
+			"scope": [
+				"entity.name.type",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Strings",
 			"scope": [
 				"string",
@@ -376,6 +387,14 @@
 		},
 		{
 			"scope": [
+				"entity.other.attribute-name.id.html",
+			],
+			"settings": {
+				"foreground": "#690"
+			}
+		},
+		{
+			"scope": [
 				"constant.numeric.css"
 			],
 			"settings": {
@@ -518,13 +537,6 @@
 			"scope": "markup.quote",
 			"settings": {
 				"foreground": "#7A3E9D"
-			}
-		},
-		{
-			"name": "Markup Lists",
-			"scope": "markup.list",
-			"settings": {
-				"foreground": "#4B83CD"
 			}
 		},
 		{
