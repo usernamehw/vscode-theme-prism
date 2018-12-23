@@ -1,6 +1,13 @@
-# Change Log
+## 0.0.5 `23 Dec 2018`
+
+- Changed tab title
+- Changed Activity Bar & Side Bar
+- Changed Activity Bar badges
+- Changed Diff
+- Changed TS/JS `NaN`
 
 ## 0.0.4 `01 Dec 2018`
+
 - Removed markup list color
 - Changed badge
 - Changed editor header
