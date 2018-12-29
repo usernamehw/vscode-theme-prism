@@ -1,3 +1,12 @@
+## 0.0.6 `29 Dec 2018`
+
+- Remove Activity Bar border
+- Change TypeScript type angle brackets
+- Change `markup.deleted`
+- Change Vue attributes
+- Change Python call, Python Exception, Python list brackets
+- Added icon
+
 ## 0.0.5 `23 Dec 2018`
 
 - Changed tab title

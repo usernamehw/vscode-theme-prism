@@ -8,6 +8,7 @@
         "type": "git",
         "url": "https://github.com/usernamehw/vscode-theme-prism"
     },
+    "icon": "img/icon.png",
     "bugs": {
         "url": "https://github.com/usernamehw/vscode-theme-prism/issues"
     },

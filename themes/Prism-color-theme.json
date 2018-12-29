@@ -39,7 +39,6 @@
 		"extensionButton.prominentHoverBackground": "#690b",
 		"activityBar.background": "#ebe5e1",
 		"activityBar.foreground": "#000",
-		"activityBar.border": "#f2f2f2",
 		"badge.background": "#0095d5",
 		"activityBarBadge.background": "#5a6773",
 		"panelTitle.activeBorder": "#07a",
@@ -131,6 +130,14 @@
 			],
 			"settings": {
 				"foreground": "#07a"
+			}
+		},
+		{
+			"scope": [
+				"cast.expr.ts meta.brace.angle.ts",
+			],
+			"settings": {
+				"foreground": "#e90"
 			}
 		},
 		{
@@ -475,7 +482,7 @@
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#905"
+				"foreground": "#dd4a68"
 			}
 		},
 		{
@@ -649,6 +656,41 @@
 			],
 			"settings": {
 				"foreground": "#07a",
+			}
+		},
+		{
+			"scope": "meta.directive.vue entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#e90"
+			}
+		},
+		// Python
+		{
+			"scope": [
+				"meta.function-call.generic.python",
+				"meta.function-call support.type"
+			],
+			"settings": {
+				"foreground": "#dd4a68"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.list.end.python",
+				"punctuation.definition.list.begin.python"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"scope": [
+				"support.type.exception",
+				"entity.name.exception"
+			],
+			"settings": {
+				"foreground": "#dd4a68",
+				"fontStyle": "bold"
 			}
 		},
 	]
