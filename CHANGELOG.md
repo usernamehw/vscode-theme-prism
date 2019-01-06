@@ -1,3 +1,7 @@
+## 0.0.8 `06 Jan 2019`
+
+- Exclude dev files from extension bundle
+
 ## 0.0.7 `06 Jan 2019`
 
 - Changed Title Bar

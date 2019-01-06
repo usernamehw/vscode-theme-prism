@@ -2,3 +2,6 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+themes/Prism-color-theme.json
+minimize.js
+package-lock.json
