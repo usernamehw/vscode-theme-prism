@@ -1,35 +1,39 @@
 {
-    "name": "prism",
-    "displayName": "Prism",
-    "description": "Prismjs default light theme",
-    "version": "0.0.6",
-    "publisher": "usernamehw",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/usernamehw/vscode-theme-prism"
-    },
-    "icon": "img/icon.png",
-    "bugs": {
-        "url": "https://github.com/usernamehw/vscode-theme-prism/issues"
-    },
-    "engines": {
-        "vscode": "^1.20.0"
-    },
-    "keywords": [
-        "vscode",
-        "themes",
-        "prism"
-    ],
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Prism",
-                "uiTheme": "vs",
-                "path": "./themes/Prism-color-theme.json"
-            }
-        ]
-    }
+	"name": "prism",
+	"displayName": "Prism",
+	"description": "Prismjs default light theme",
+	"version": "0.0.6",
+	"publisher": "usernamehw",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/usernamehw/vscode-theme-prism"
+	},
+	"icon": "img/icon.png",
+	"bugs": {
+		"url": "https://github.com/usernamehw/vscode-theme-prism/issues"
+	},
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"keywords": [
+		"vscode",
+		"themes",
+		"prism"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Prism",
+				"uiTheme": "vs",
+				"path": "./themes/Prism-color-theme-minimized.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^10.12.18",
+		"json5": "^2.1.0"
+	}
 }
