@@ -1,4 +1,3 @@
 node_modules
 *.vsix
 themes/Prism-color-theme-minimized.json
-package-lock.json
