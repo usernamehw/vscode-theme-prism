@@ -1,3 +1,12 @@
+## 0.0.9 `14 Jan 2019`
+
+- Changed matched bracket background/border
+- Changed Sidebar section header
+- Changed List hover background
+- Changed JS/TS `Infinity`
+- Changed `.json` number
+- Changed `.jade` interpolation punctuation
+
 ## 0.0.8 `06 Jan 2019`
 
 - Exclude dev files from extension bundle

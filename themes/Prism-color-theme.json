@@ -12,18 +12,20 @@
 		"editorOverviewRuler.warningForeground": "#e90",
 		"list.warningForeground": "#e90",
 		"list.errorForeground": "#ff0d3e",
+		"list.hoverBackground": "#70809030",
 		"editor.lineHighlightBackground": "#70809025",
 		"statusBar.background": "#ebe5e1",
 		"statusBar.foreground": "#222",
 		"textLink.foreground": "#07a",
 		"textLink.activeForeground": "#690",
-		"textPreformat.foreground": "#d93556",
-		"editorBracketMatch.border": "#fff0",
-		"editorBracketMatch.background": "#07a3",
+		"textPreformat.foreground": "#cd415d",
+		"editorBracketMatch.border": "#07a5",
+		"editorBracketMatch.background": "#0077aa19",
 		"editorCursor.background": "#fff",
 		"editorCursor.foreground": "#0095d5",
 		"sideBar.background": "#f5f2f0",
 		"sideBar.border": "#ebe5e1",
+		"sideBarSectionHeader.background": "#ebe5e1",
 		"tab.hoverBackground": "#e1d7d1",
 		"tab.activeBackground": "#e1d7d1",
 		"tab.inactiveBackground": "#f5f2f0",
@@ -42,7 +44,6 @@
 		"activityBar.foreground": "#111",
 		"badge.background": "#0095d5",
 		"activityBarBadge.background": "#5a6773",
-		"panelTitle.activeBorder": "#07a",
 		"editorLink.activeForeground": "#dd4a68",
 		"editorError.foreground": "#dd4a68",
 		"input.border": "#e3e6e9",
@@ -164,6 +165,7 @@
 				"expression.embedded punctuation.definition.generic",
 				"punctuation.section.embedded",
 				"variable.interpolation",
+				"string.interpolated.pug",
 				"meta.interpolation.stylus meta.brace.curly", // stylus
 			],
 			"settings": {
@@ -231,7 +233,8 @@
 				"constant.character",
 				"constant",
 				"constant.language.boolean",
-				"constant.language.nan"
+				"constant.language.nan",
+				"constant.language.infinity"
 			],
 			"settings": {
 				"foreground": "#905",
@@ -296,6 +299,7 @@
 				"meta.tag.metadata.doctype entity.name.tag",
 				"meta.tag.metadata.doctype punctuation.definition.tag",
 				"meta.tag.metadata.doctype entity.other.attribute-name.html",
+				"meta.tag.sgml.doctype"// pug
 			],
 			"settings": {
 				"foreground": "#AAAAAA"
@@ -578,7 +582,7 @@
 				"foreground": "#07a",
 			}
 		},
-		// markdown/md
+		// markup/markdown/md
 		{
 			"scope": [
 				"entity.name.section.markdown"
@@ -622,6 +626,20 @@
 			"scope": "markup.italic",
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		// JSON
+		{
+			"scope": "constant.numeric.json",
+			"settings": {
+				"foreground": "#07a"
+			}
+		},
+		// Pug/jade
+		{
+			"scope": "string.interpolated.pug variable",
+			"settings": {
+				"foreground": "#222222",
 			}
 		},
 		// Python
