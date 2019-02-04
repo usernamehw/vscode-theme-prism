@@ -1,3 +1,12 @@
+## 0.0.10 `04 Feb 2019`
+
+- Changed list selected background
+- Changed panel title foreground
+- Changed bracket match in scrollbar
+- Added `.log` colors
+- Added JSDoc variable
+- Added `keyword.type`/`entity.name.type.namespace`
+
 ## 0.0.9 `14 Jan 2019`
 
 - Changed matched bracket background/border
