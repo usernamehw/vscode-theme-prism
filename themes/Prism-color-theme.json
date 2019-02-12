@@ -46,8 +46,9 @@
 		"extensionButton.prominentHoverBackground": "#690b",
 		"activityBar.background": "#ebe5e1",
 		"activityBar.foreground": "#111",
-		"badge.background": "#0095d5",
 		"activityBarBadge.background": "#5a6773",
+		"activityBar.dropBackground": "#2677cb2e",
+		"badge.background": "#0095d5",
 		"editorLink.activeForeground": "#dd4a68",
 		"editorError.foreground": "#dd4a68",
 		"input.border": "#e3e6e9",
@@ -60,12 +61,24 @@
 		"gitDecoration.deletedResourceForeground": "#dd4a68",
 		"gitDecoration.ignoredResourceForeground": "#9ba7b1",
 		"gitDecoration.untrackedResourceForeground": "#690",
-		"terminal.ansiYellow": "#e90",
 		"titleBar.activeBackground": "#d7cac2",
 		"titleBar.activeForeground": "#111",
 		"panelTitle.inactiveForeground": "#8d9aa6",
 		"panelTitle.activeForeground": "#000",
 		"panelTitle.activeBorder": "#000",
+
+		"scrollbarSlider.background": "#64646440",
+
+		"editor.selectionHighlightBorder": "#70809040",
+
+		"breadcrumb.focusForeground": "#690",
+		"breadcrumb.activeSelectionForeground": "#690",
+
+		"terminal.ansiYellow": "#e90",
+		"terminal.ansiRed": "#dd4a68",
+		"terminal.ansiMagenta": "#905",
+		"terminal.ansiGreen": "#690",
+		"terminal.ansiBrightGreen": "#690",
 	},
 	"tokenColors": [
 		{
@@ -82,6 +95,15 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter",
+				"meta.function.parameter variable"
+			],
+			"settings": {
+				"foreground": "#905",
 			}
 		},
 		// Fix bug
@@ -779,6 +801,16 @@
 			"scope": "punctuation.separator.namespace",
 			"settings": {
 				"foreground": "#9a6e3a"
+			}
+		},
+		// bat batch
+		{
+			"scope": [
+				"punctuation.definition.variable.begin.batchfile",
+				"punctuation.definition.variable.end.batchfile"
+			],
+			"settings": {
+				"foreground": "#dd4a68",
 			}
 		},
 		// IDK

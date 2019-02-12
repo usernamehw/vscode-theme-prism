@@ -1,3 +1,13 @@
+## 0.0.11 `12 Feb 2019`
+
+- Added dnd feedback to activity bar icons
+- Lighter minimap/scrollbar shadow
+- Added breadcrumbs hover/focused element
+- Added selection border
+- Changed terminal: `yellow`/`red`/`magenta`/`green`/`brightGreen`
+- Added `variable.parameter`
+
+
 ## 0.0.10 `04 Feb 2019`
 
 - Changed list selected background
