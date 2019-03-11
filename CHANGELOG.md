@@ -1,3 +1,13 @@
+## 0.0.13 `11 Mar 2019`
+
+- Changed `textPreformat.foreground` / `textCodeBlock.background`
+- Changed `tab.activeModifiedBorder` / `tab.inactiveModifiedBorder`
+- Changed `editor.selectionBackground`
+- Added `invalid` / `invalid.illegal`
+- Assigned explicitly `variable` the same color as `editor.foreground`
+- Changed some punctuation in `CSS`/`SCSS`. E.g. colon in `::before`
+- Changed `.ini` header to match `.md` header
+
 ## 0.0.12 `24 Feb 2019`
 
 - Changed `list.highlightForeground`

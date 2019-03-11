@@ -23,8 +23,9 @@
 		"statusBar.foreground": "#090909",
 		"textLink.foreground": "#07a",
 		"textLink.activeForeground": "#690",
-		"textPreformat.foreground": "#cd415d",
-		"editorBracketMatch.border": "#07a7",
+		"textPreformat.foreground": "#905",
+		"textCodeBlock.background": "#d4d9de",
+		"editorBracketMatch.border": "#0095d5",
 		"editorBracketMatch.background": "#fff0",
 		"editorCursor.background": "#fff",
 		"editorCursor.foreground": "#0095d5",
@@ -37,6 +38,8 @@
 		"tab.inactiveBackground": "#f5f2f0",
 		"tab.inactiveForeground": "#444",
 		"tab.activeForeground": "#000",
+		"tab.activeModifiedBorder": "#9a6e3a",
+		"tab.inactiveModifiedBorder": "#9a6e3a",
 		"editorGroupHeader.tabsBorder": "#e2e6e9",
 		"editorGroupHeader.tabsBackground": "#f5f2f0",
 		"editorSuggestWidget.highlightForeground": "#dd4a68",
@@ -73,6 +76,7 @@
 		"scrollbarSlider.background": "#64646440",
 
 		"editor.selectionHighlightBorder": "#70809040",
+		"editor.selectionBackground": "#cbe2fa",
 
 		"breadcrumb.background": "#eee9e6",
 		"breadcrumb.foreground": "#000",
@@ -129,9 +133,13 @@
 			}
 		},
 		{
-			"scope": "invalid.illegal",
+			"scope": [
+				"invalid",
+				"invalid.illegal",
+
+			],
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#dd4a68"
 			}
 		},
 		{
@@ -188,7 +196,8 @@
 				"support.variable.property.dom",
 				"support.variable.dom",
 				"support.variable.property",
-				"punctuation.separator.parameter"
+				"punctuation.separator.parameter",
+				"variable"
 			],
 			"settings": {
 				"foreground": "#222222"
@@ -442,6 +451,14 @@
 		},
 		{
 			"scope": [
+				"entity.other.attribute-name punctuation.definition.entity"
+			],
+			"settings": {
+				"foreground": "#999",
+			}
+		},
+		{
+			"scope": [
 				"constant.numeric keyword.other.unit"
 			],
 			"settings": {
@@ -581,24 +598,31 @@
 		{
 			"scope": "meta.diff.header.from-file",
 			"settings": {
-				"foreground": "#434343"
+				"foreground": "#905"
 			}
 		},
 		{
 			"scope": "meta.diff.header.to-file",
 			"settings": {
-				"foreground": "#434343"
+				"foreground": "#690"
 			}
 		},
 		// ini
 		{
 			"scope": [
-				"entity.name.section",
-				"entity.name.section punctuation.definition.entity"
+				"entity.name.section.group-title.ini"
 			],
 			"settings": {
-				"foreground": "#690",
+				"foreground": "#e90",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.entity.ini"
+			],
+			"settings": {
+				"foreground": "#999",
 			}
 		},
 		{
