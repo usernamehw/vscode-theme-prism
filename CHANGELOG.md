@@ -1,3 +1,10 @@
+## 0.0.14 `27 May 2019`
+
+- Changed `list.highlightForeground` (matched letter in lists and autocomplete)
+- Changed `tab.activeModifiedBorder`
+- Changed arrow function  `storage.type.function.arrow`
+- Small tweaks
+
 ## 0.0.13 `11 Mar 2019`
 
 - Changed `textPreformat.foreground` / `textCodeBlock.background`

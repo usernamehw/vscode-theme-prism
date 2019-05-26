@@ -12,7 +12,7 @@
 		"editorOverviewRuler.warningForeground": "#e90",
 		"editorOverviewRuler.bracketMatchForeground": "#0095d5",
 		"editorOverviewRuler.modifiedForeground": "#66afe0",
-		"list.highlightForeground": "#dd4a68",
+		"list.highlightForeground": "#0066bf",
 		"list.warningForeground": "#e90",
 		"list.errorForeground": "#ff0d3e",
 		"list.hoverBackground": "#70809030",
@@ -33,16 +33,16 @@
 		"sideBar.border": "#ebe5e1",
 		"sideBarSectionHeader.background": "#ebe5e1",
 		"tab.border": "#e2e6e9",
-		"tab.hoverBackground": "#e1d7d1",
-		"tab.activeBackground": "#e1d7d1",
+		"tab.hoverBackground": "#e6ded9",
+		"tab.activeBackground": "#e6ded9",
 		"tab.inactiveBackground": "#f5f2f0",
 		"tab.inactiveForeground": "#444",
 		"tab.activeForeground": "#000",
-		"tab.activeModifiedBorder": "#9a6e3a",
-		"tab.inactiveModifiedBorder": "#9a6e3a",
+		"tab.activeModifiedBorder": "#708090",
+		"tab.inactiveModifiedBorder": "#708090",
 		"editorGroupHeader.tabsBorder": "#e2e6e9",
 		"editorGroupHeader.tabsBackground": "#f5f2f0",
-		"editorSuggestWidget.highlightForeground": "#dd4a68",
+		"editorSuggestWidget.highlightForeground": "#0066bf",
 		"statusBar.noFolderBackground": "#07a",
 		"statusBar.noFolderForeground": "#fff",
 		"statusBarItem.hoverBackground": "#70809050",
@@ -75,8 +75,12 @@
 
 		"scrollbarSlider.background": "#64646440",
 
-		"editor.selectionHighlightBorder": "#70809040",
+		"editor.selectionHighlightBorder": "#70809050",
 		"editor.selectionBackground": "#cbe2fa",
+
+		"widget.shadow": "#70809060",
+
+		"editorHoverWidget.border": "#d4d9de",
 
 		"breadcrumb.background": "#eee9e6",
 		"breadcrumb.foreground": "#000",
@@ -145,11 +149,18 @@
 		{
 			"scope": [
 				"keyword.operator",
-				"storage.type.function.arrow",
 				"constant.language.import-export-all"
 			],
 			"settings": {
 				"foreground": "#9a6e3a"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.function.arrow"
+			],
+			"settings": {
+				"foreground": "#0087c1",
 			}
 		},
 		{
