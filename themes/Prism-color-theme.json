@@ -73,7 +73,7 @@
 		"panelTitle.activeForeground": "#000",
 		"panelTitle.activeBorder": "#000",
 
-		"scrollbarSlider.background": "#64646440",
+		"scrollbarSlider.background": "#6464642a",
 
 		"editor.selectionHighlightBorder": "#70809050",
 		"editor.selectionBackground": "#cbe2fa",
@@ -87,11 +87,19 @@
 		"breadcrumb.focusForeground": "#690",
 		"breadcrumb.activeSelectionForeground": "#690",
 
-		"terminal.ansiYellow": "#e90",
-		"terminal.ansiRed": "#dd4a68",
-		"terminal.ansiMagenta": "#905",
+		"terminal.ansiWhite": "#b8c0c7",
+		"terminal.ansiBrightWhite": "#5a6773",
+		"terminal.ansiBlack": "#000",
+		"terminal.ansiBrightBlack": "#000",
 		"terminal.ansiGreen": "#690",
 		"terminal.ansiBrightGreen": "#690",
+		"terminal.ansiRed": "#dd4a68",
+		"terminal.ansiYellow": "#e90",
+		"terminal.ansiBrightYellow": "#e90",
+		"terminal.ansiBlue": "#008ac6",
+		"terminal.ansiBrightBlue": "#0083bc",
+		"terminal.ansiMagenta": "#a8005e",
+		"terminal.ansiBrightMagenta": "#a8005e",
 	},
 	"tokenColors": [
 		{
@@ -254,6 +262,18 @@
 			}
 		},
 		{
+			"scope": "support.class",
+			"settings": {
+				"foreground": "#690"
+			}
+		},
+		{
+			"scope": "support.class.component",
+			"settings": {
+				"foreground": "#dd4a68"
+			}
+		},
+		{
 			"scope": [
 				"entity.name.type",
 				"support.type.primitive",
@@ -269,7 +289,9 @@
 			"scope": [
 				"punctuation.definition.typeparameters",
 				"keyword.operator.type",
-				"keyword.operator.optional"
+				"keyword.operator.optional",
+				"source.tsx punctuation.section.embedded",
+				"source.jsx punctuation.section.embedded",
 			],
 			"settings": {
 				"foreground": "#e90",
@@ -289,7 +311,9 @@
 				"constant",
 				"constant.language.boolean",
 				"constant.language.nan",
-				"constant.language.infinity"
+				"constant.language.infinity",
+				"constant.language.undefined",
+				"constant.language.null"
 			],
 			"settings": {
 				"foreground": "#905",
@@ -298,7 +322,6 @@
 		},
 		{
 			"scope": [
-				"entity.name.type",
 				"entity.other.inherited-class"
 			],
 			"settings": {
@@ -660,6 +683,7 @@
 			],
 			"settings": {
 				"foreground": "#e90",
+				"fontStyle": "bold"
 			}
 		},
 		{

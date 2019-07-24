@@ -1,3 +1,12 @@
+## 0.0.15 `24 Jul 2019`
+
+- Tweaked `terminal.*` colors
+- Changed `scrollbarSlider.background`
+- Changed `undefined` & `null`
+- Remove bold from type annotations
+- Support class be green
+- Markdown header - bold
+
 ## 0.0.14 `27 May 2019`
 
 - Changed `list.highlightForeground` (matched letter in lists and autocomplete)
