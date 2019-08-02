@@ -1,3 +1,4 @@
 node_modules
 *.vsix
 themes/Prism-color-theme-minimized.json
+themes/Prism-color-theme-no-bold-minimized.json

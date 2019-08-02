@@ -16,10 +16,10 @@
 		"vscode": "^1.20.0"
 	},
 	"keywords": [
-		"vscode",
 		"themes",
 		"light",
-		"prism"
+		"prism",
+		"MDN"
 	],
 	"categories": [
 		"Themes"
@@ -30,6 +30,11 @@
 				"label": "Prism",
 				"uiTheme": "vs",
 				"path": "./themes/Prism-color-theme-minimized.json"
+			},
+			{
+				"label": "Prism (No Bold)",
+				"uiTheme": "vs",
+				"path": "./themes/Prism-color-theme-no-bold-minimized.json"
 			}
 		]
 	},

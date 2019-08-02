@@ -1,3 +1,10 @@
+## 0.0.16 `02 Aug 2019`
+
+- Return bold types
+- A bit less contrast for comments
+- More contrast for unused variables `editorUnnecessaryCode.opacity`
+- Add theme variant without any of the `bold` fontStyle
+
 ## 0.0.15 `24 Jul 2019`
 
 - Tweaked `terminal.*` colors

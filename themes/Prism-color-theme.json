@@ -82,6 +82,8 @@
 
 		"editorHoverWidget.border": "#d4d9de",
 
+		"editorUnnecessaryCode.opacity": "#ffffff8f",
+
 		"breadcrumb.background": "#eee9e6",
 		"breadcrumb.foreground": "#000",
 		"breadcrumb.focusForeground": "#690",
@@ -108,7 +110,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#9ba6b1"
+				"foreground": "#a9b3bc"
 			}
 		},
 		{
@@ -282,7 +284,13 @@
 				"meta.type.parameters entity.name.type"
 			],
 			"settings": {
-				"foreground": "#708090"
+				"foreground": "#708090",
+			}
+		},
+		{
+			"scope": "entity.name.type",
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{
