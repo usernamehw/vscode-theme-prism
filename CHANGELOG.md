@@ -1,3 +1,7 @@
+## 0.0.17 `08 Aug 2019`
+
+- Revert dimmed comments
+
 ## 0.0.16 `02 Aug 2019`
 
 - Return bold types
