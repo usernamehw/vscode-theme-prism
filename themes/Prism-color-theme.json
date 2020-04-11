@@ -1,11 +1,12 @@
 // #dd4a68 #d93556 #07a #0095d5 #690 #558000 #9a6e3a #e90 #e19100 #708090 #905 #999
-// #171a1d #2d343a #384048 #434d57 #5a6773 #8d9aa6 #9ba6b1
+// #171a1d #2d343a #384048 #434d57 #5a6773 #8d9aa6 #9ba6b1  #e6ded9 #e9e2de #ebe5e1 #f0ebe8  #d7cac2
 {
 	"name": "Prism",
 	"type": "light",
 	"colors": {
 		"editor.background": "#f5f2f0",
-		"editor.foreground": "#222222",
+		"editor.foreground": "#444444",
+		"editor.foldBackground": "#0095d518",
 		"editorLineNumber.foreground": "#70809060",
 		"editorLineNumber.activeForeground": "#5a6773",
 		"editorWarning.foreground": "#e90",
@@ -18,23 +19,23 @@
 		"list.hoverBackground": "#70809030",
 		"list.activeSelectionBackground": "#9ba6b1",
 		"list.activeSelectionForeground": "#fff",
-		"editor.lineHighlightBackground": "#7080902b",
+		"editor.lineHighlightBackground": "#7080901b",
 		"statusBar.background": "#ebe5e1",
 		"statusBar.foreground": "#090909",
 		"textLink.foreground": "#07a",
 		"textLink.activeForeground": "#690",
 		"textPreformat.foreground": "#905",
 		"textCodeBlock.background": "#d4d9de",
-		"editorBracketMatch.border": "#0095d5",
-		"editorBracketMatch.background": "#fff0",
+		"editorBracketMatch.border": "#0095d577",
+		"editorBracketMatch.background": "#0095d517",
 		"editorCursor.background": "#fff",
 		"editorCursor.foreground": "#0095d5",
 		"sideBar.background": "#f5f2f0",
 		"sideBar.border": "#ebe5e1",
 		"sideBarSectionHeader.background": "#ebe5e1",
 		"tab.border": "#e2e6e9",
-		"tab.hoverBackground": "#e6ded9",
-		"tab.activeBackground": "#e6ded9",
+		"tab.hoverBackground": "#e9e2de",
+		"tab.activeBackground": "#e9e2de",
 		"tab.inactiveBackground": "#f5f2f0",
 		"tab.inactiveForeground": "#444",
 		"tab.activeForeground": "#000",
@@ -46,14 +47,16 @@
 		"statusBar.noFolderBackground": "#07a",
 		"statusBar.noFolderForeground": "#fff",
 		"statusBarItem.hoverBackground": "#70809050",
-		"badge.background": "#5a6773",
+		"badge.background": "#71818f",
 		"badge.foreground": "#fff",
-		"editorIndentGuide.activeBackground": "#5a6773",
+		"editorIndentGuide.background": "#70809020",
+		"editorIndentGuide.activeBackground": "#70809060",
 		"extensionButton.prominentBackground": "#690",
 		"extensionButton.prominentHoverBackground": "#690b",
 		"activityBar.background": "#ebe5e1",
+		"activityBar.activeBackground": "#e4dbd6",
 		"activityBar.foreground": "#111",
-		"activityBarBadge.background": "#5a6773",
+		"activityBarBadge.background": "#71818f",
 		"activityBar.dropBackground": "#2677cb2e",
 		"editorLink.activeForeground": "#dd4a68",
 		"editorError.foreground": "#dd4a68",
@@ -67,18 +70,20 @@
 		"gitDecoration.deletedResourceForeground": "#dd4a68",
 		"gitDecoration.ignoredResourceForeground": "#9ba7b1",
 		"gitDecoration.untrackedResourceForeground": "#690",
-		"titleBar.activeBackground": "#d7cac2",
+		"titleBar.activeBackground": "#ebe5e1",// #ebe5e1 #f5f2f0
 		"titleBar.activeForeground": "#111",
 		"panelTitle.inactiveForeground": "#8d9aa6",
 		"panelTitle.activeForeground": "#000",
 		"panelTitle.activeBorder": "#000",
 
-		"scrollbarSlider.background": "#6464642a",
+		"scrollbarSlider.background": "#70809025",
+		"scrollbarSlider.activeBackground": "#70809020",
+		"scrollbarSlider.hoverBackground": "#70809020",
 
 		"editor.selectionHighlightBorder": "#70809050",
 		"editor.selectionBackground": "#cbe2fa",
 
-		"widget.shadow": "#70809060",
+		// "widget.shadow": "#70809060",
 
 		"editorHoverWidget.border": "#d4d9de",
 
@@ -88,6 +93,9 @@
 		"breadcrumb.foreground": "#000",
 		"breadcrumb.focusForeground": "#690",
 		"breadcrumb.activeSelectionForeground": "#690",
+
+		"minimap.errorHighlight": "#dd4a68",
+		"minimap.warningHighlight": "#e90",
 
 		"terminal.ansiWhite": "#b8c0c7",
 		"terminal.ansiBrightWhite": "#5a6773",
@@ -137,7 +145,7 @@
 				"meta.template.expression"
 			],
 			"settings": {
-				"foreground": "#222222",
+				"foreground": "#444444",
 			}
 		},
 		{
@@ -221,7 +229,7 @@
 				"variable"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#444444"
 			}
 		},
 		{
@@ -742,7 +750,7 @@
 		{
 			"scope": "string.interpolated.pug variable",
 			"settings": {
-				"foreground": "#222222",
+				"foreground": "#444444",
 			}
 		},
 		// Python
@@ -853,7 +861,7 @@
 		{
 			"scope": "comment.block.documentation variable.other.jsdoc",
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#444444"
 			}
 		},
 		// C
