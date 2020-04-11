@@ -1,3 +1,7 @@
+## 1.0.0 `11 Apr 2020`
+
+- [eb6ac41](https://github.com/usernamehw/vscode-theme-prism/commit/eb6ac4136f912241f8431aa6a5e142b568af29e5)
+
 ## 0.0.17 `08 Aug 2019`
 
 - Revert dimmed comments
