@@ -9,6 +9,7 @@
 		"url": "https://github.com/usernamehw/vscode-theme-prism"
 	},
 	"icon": "img/icon.png",
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/usernamehw/vscode-theme-prism/issues"
 	},
