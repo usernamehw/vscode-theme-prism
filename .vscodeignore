@@ -6,3 +6,6 @@ themes/Prism-color-theme.json
 minimize.js
 package-lock.json
 .gitattributes
+
+img/react_example.png
+LICENSE
