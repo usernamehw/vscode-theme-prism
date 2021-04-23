@@ -16,6 +16,7 @@
 	"engines": {
 		"vscode": "^1.20.0"
 	},
+	"qna": false,
 	"keywords": [
 		"theme",
 		"themes",
