@@ -17,8 +17,10 @@
 		"editor.findMatchBackground": "#70809040",
 		"editor.findMatchHighlightBackground": "#70809040",
 		"editor.findMatchHighlightBorder": "#fff0",
-		"editor.wordHighlightBackground": "#66990030",
-		"editor.wordHighlightStrongBackground": "#66990030",
+		"editor.wordHighlightBackground": "#66990018",
+		"editor.wordHighlightStrongBackground": "#66990018",
+		"editor.wordHighlightBorder": "#66990040",
+		"editor.wordHighlightStrongBorder": "#66990040",
 		"editor.hoverHighlightBackground": "#0095d529",
 
 		"editorOverviewRuler.warningForeground": "#e90",
@@ -83,8 +85,10 @@
 		"badge.foreground": "#fff",
 		"editorIndentGuide.background": "#70809020",
 		"editorIndentGuide.activeBackground": "#70809060",
+
 		"button.background": "#008ac6",
 		"button.hoverBackground": "#0079ad",
+		"button.secondaryBackground": "#708090",
 		"extensionButton.prominentBackground": "#008ac6",
 		"extensionButton.prominentHoverBackground": "#0079ad",
 
@@ -112,7 +116,6 @@
 		"gitDecoration.modifiedResourceForeground": "#0095d5",
 		"gitDecoration.stageModifiedResourceForeground": "#0095d5",
 		"focusBorder": "#0095d5",
-		"debugConsole.infoForeground": "#0083bc",
 		"diffEditor.insertedTextBackground": "#66990030",
 		"diffEditor.removedTextBackground": "#dd4a6830",
 		"gitDecoration.deletedResourceForeground": "#dd4a68",
@@ -122,11 +125,21 @@
 		"titleBar.activeBackground": "#ede8e4",
 		"titleBar.activeForeground": "#111",
 
+		"quickInputList.focusBackground": "#70809020",
+
 		"panel.border": "#d4d9de",
 		"panelTitle.inactiveForeground": "#8d9aa6",
 		"panelTitle.activeForeground": "#000",
 		"panelTitle.activeBorder": "#000",
 		"panelSectionHeader.background": "#ebe5e1",
+
+		"debugConsole.infoForeground": "#0083bc",
+		"debugTokenExpression.name": "#990055",
+		"debugTokenExpression.string": "#669900",
+		"debugTokenExpression.boolean": "#0077AA",
+		"debugTokenExpression.number": "#0077AA",
+		"debugTokenExpression.value": "#8d9aa6",
+		"debugTokenExpression.error": "#e6254b",
 
 		"scrollbarSlider.background": "#70809030",
 		"scrollbarSlider.activeBackground": "#70809020",
@@ -144,7 +157,7 @@
 		"notebook.focusedRowBorder": "#0095d5",
 
 		"menubar.selectionBackground": "#70809030",
-		"menu.selectionBackground": "#d6ebff",
+		"menu.selectionBackground": "#70809020",
 		"menu.selectionForeground": "#616161",
 
 		"editorWidget.resizeBorder": "#61616140",
@@ -196,7 +209,8 @@
 		{
 			"scope": [
 				"meta.brace.square",
-				"meta.brace.round"
+				"meta.brace.round",
+				"punctuation.separator.parameter"
 			],
 			"settings": {
 				"foreground": "#999"
@@ -252,7 +266,7 @@
 				"storage.type.function.arrow"
 			],
 			"settings": {
-				"foreground": "#0087c1",
+				"foreground": "#0077AA",
 			}
 		},
 		{
@@ -299,7 +313,6 @@
 				"support.variable.property.dom",
 				"support.variable.dom",
 				"support.variable.property",
-				"punctuation.separator.parameter",
 				"variable"
 			],
 			"settings": {
@@ -316,7 +329,8 @@
 				"meta.interpolation.stylus meta.brace.curly", // stylus
 			],
 			"settings": {
-				"foreground": "#DD4A68"
+				"foreground": "#EE9900",
+				"fontStyle": "bold"
 			},
 		},
 		{
@@ -828,7 +842,7 @@
 				"markup.underline.link.image.markdown"
 			],
 			"settings": {
-				"foreground": "#61afef"
+				"foreground": "#652d90"
 			}
 		},
 		{
@@ -868,7 +882,11 @@
 			"scope": [
 				"meta.tag string",
 				"source.vue string.quoted",
-				"text.html.vue-html punctuation.definition.string"
+				"text.html.vue-html punctuation.definition.string",
+				"source.vue source.ts string.quoted",
+				"source.vue source.ts punctuation.definition.string",
+				"punctuation.definition.string.begin.tsx",
+				"punctuation.definition.string.end.tsx"
 			],
 			"settings": {
 				"foreground": "#669900"
