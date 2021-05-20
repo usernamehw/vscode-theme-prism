@@ -263,14 +263,6 @@
 		},
 		{
 			"scope": [
-				"storage.type.function.arrow"
-			],
-			"settings": {
-				"foreground": "#0077AA",
-			}
-		},
-		{
-			"scope": [
 				"keyword",
 				"storage"
 			],
