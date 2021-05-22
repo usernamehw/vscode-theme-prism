@@ -134,7 +134,7 @@
 		"panelSectionHeader.background": "#ebe5e1",
 
 		"debugConsole.infoForeground": "#0083bc",
-		"debugTokenExpression.name": "#990055",
+		"debugTokenExpression.name": "#905",
 		"debugTokenExpression.string": "#669900",
 		"debugTokenExpression.boolean": "#0077AA",
 		"debugTokenExpression.number": "#0077AA",
