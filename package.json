@@ -1,7 +1,7 @@
 {
 	"name": "prism",
-	"displayName": "Prism",
-	"description": "Prism.js default light theme.",
+	"displayName": "Prism ( Light Theme )",
+	"description": "Light theme.",
 	"version": "1.0.4",
 	"publisher": "usernamehw",
 	"repository": {
@@ -20,14 +20,19 @@
 	"keywords": [
 		"theme",
 		"themes",
-		"Light",
-		"Light Theme"
+		"light",
+		"soft",
+		"mild",
+		"easy",
+		"eyes",
+		"light theme"
 	],
 	"categories": [
 		"Themes"
 	],
 	"scripts": {
-		"vscode:prepublish": "node minimize.js"
+		"vscode:prepublish": "node minimize.js",
+		"watch": "nodemon --watch themes/Prism-color-theme.json --exec \"npm run vscode:prepublish\""
 	},
 	"contributes": {
 		"themes": [

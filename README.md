@@ -13,4 +13,5 @@ Light theme based on the [Prism.js](https://prismjs.com/) default light theme.
 
 ```js
 "editor.scrollbar.verticalScrollbarSize": 18,
+"editor.minimap.renderCharacters": false,
 ```
