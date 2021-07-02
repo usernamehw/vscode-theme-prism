@@ -8,8 +8,8 @@ Light theme based on the [Prism.js](https://prismjs.com/) default light theme.
 
 ### Recommended settings
 
+<!-- "editor.scrollbar.verticalScrollbarSize": 18, -->
 ```js
-"editor.scrollbar.verticalScrollbarSize": 18,
 "editor.minimap.renderCharacters": false,
 "workbench.tips.enabled": false,
 ```
