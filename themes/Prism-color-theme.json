@@ -45,7 +45,7 @@
 		"statusBar.foreground": "#090909",
 		"statusBar.border": "#d4d9de",
 		"statusBarItem.hoverBackground": "#d7cac2",
-		"statusBar.noFolderBackground": "#d7cac2",
+		"statusBar.noFolderBackground": "#ede8e4",
 		"statusBar.noFolderForeground": "#000",
 		"statusBar.debuggingBackground": "#ee990030",
 		"statusBarItem.errorBackground": "#dd4a68",
@@ -54,7 +54,7 @@
 		"statusBarItem.prominentForeground": "#ffffff",
 
 		"textLink.foreground": "#07a",
-		"textLink.activeForeground": "#690",
+		"textLink.activeForeground": "#990055DD",
 		"textPreformat.foreground": "#905",
 		"textCodeBlock.background": "#dde1e5",
 		"editorBracketMatch.border": "#8d9aa6",
@@ -81,7 +81,7 @@
 
 		"editorGroup.border": "#d4d9de",
 
-		"badge.background": "#a9b3bc",
+		"badge.background": "#9ba6b1",
 		"badge.foreground": "#fff",
 		"editorIndentGuide.background": "#70809020",
 		"editorIndentGuide.activeBackground": "#70809060",
@@ -97,9 +97,9 @@
 		"activityBar.activeBackground": "#e6ded9",
 		"activityBar.activeBorder": "#fff0",
 		"activityBar.foreground": "#111",
-		"activityBarBadge.background": "#a9b3bc",
+		"activityBarBadge.background": "#9ba6b1",
 
-		"editorLink.activeForeground": "#dd4a68",
+		"editorLink.activeForeground": "#990055DD",
 		"editorError.foreground": "#dd4a68",
 
 		"input.border": "#e3e6e9",
@@ -142,10 +142,12 @@
 		"debugTokenExpression.value": "#8d9aa6",
 		"debugTokenExpression.error": "#e6254b",
 
-		"scrollbarSlider.background": "#70809030",
-		"scrollbarSlider.activeBackground": "#70809020",
-		"scrollbarSlider.hoverBackground": "#70809020",
-		"minimapSlider.background": "#70809025",
+		"scrollbarSlider.background": "#70809040",
+		"scrollbarSlider.hoverBackground": "#70809040",
+		"scrollbarSlider.activeBackground": "#70809040",
+		"minimapSlider.background": "#70809040",
+		"minimapSlider.activeBackground": "#70809040",
+		"minimapSlider.hoverBackground": "#70809040",
 
 		"editor.selectionHighlightBorder": "#70809050",
 		"editor.selectionBackground": "#cbe2fa",
@@ -163,20 +165,24 @@
 
 		"editorWidget.resizeBorder": "#61616140",
 
+		"editorHoverWidget.statusBarBackground": "#70809018",
+
 		"editorHoverWidget.border": "#d4d9de",
 
 		"editorUnnecessaryCode.opacity": "#ffffff8f",
 
 		"breadcrumb.background": "#f5f2f0",
 		"breadcrumb.foreground": "#000",
-		"breadcrumb.focusForeground": "#690",
-		"breadcrumb.activeSelectionForeground": "#690",
+		"breadcrumb.focusForeground": "#990055DD",
+		"breadcrumb.activeSelectionForeground": "#990055DD",
 
 		"minimap.errorHighlight": "#dd4a68",
 		"minimap.warningHighlight": "#e90",
 
 		"welcomePage.tileBackground": "#70809010",
 		"welcomePage.tileHoverBackground": "#70809020",
+		"welcomePage.buttonBackground": "#70809015",
+		"welcomePage.buttonHoverBackground": "#70809025",
 
 		"terminal.selectionBackground": "#cbe2fa",
 		"terminal.ansiWhite": "#b8c0c7",
@@ -192,6 +198,8 @@
 		"terminal.ansiBrightBlue": "#0083bc",
 		"terminal.ansiMagenta": "#a8005e",
 		"terminal.ansiBrightMagenta": "#a8005e",
+
+		"peekViewEditor.background": "#F5F2F0",
 	},
 	"tokenColors": [
 		{
@@ -243,7 +251,7 @@
 		{
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#96000060"
+				"foreground": "#96000080"
 			}
 		},
 		{
@@ -423,7 +431,8 @@
 				"constant.language.nan",
 				"constant.language.infinity",
 				"constant.language.undefined",
-				"constant.language.null"
+				"constant.language.null",
+				"source.editorconfig constant.language"
 			],
 			"settings": {
 				"foreground": "#905",
@@ -482,7 +491,7 @@
 				"meta.tag.sgml.doctype"// pug
 			],
 			"settings": {
-				"foreground": "#AAAAAA"
+				"foreground": "#8D9AA6bb"
 			}
 		},
 		{
@@ -964,6 +973,23 @@
 			"scope": "punctuation.separator.namespace",
 			"settings": {
 				"foreground": "#9a6e3a"
+			}
+		},
+		// Java
+		{
+			"scope": [
+				"meta.import.java storage.modifier",
+			],
+			"settings": {
+				"foreground": "#990055",
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.instanceof.java"
+			],
+			"settings": {
+				"foreground": "#07a",
 			}
 		},
 		// bat batch
