@@ -1,3 +1,7 @@
+## 1.0.6 `02 Jul 2021`
+
+- [27bd5d3](https://github.com/usernamehw/vscode-theme-prism/commit/27bd5d34274aec7a37de40862d752031426b4210)
+
 ## 1.0.5 `28 Jun 2021`
 
 - [27e8c13](https://github.com/usernamehw/vscode-theme-prism/commit/27e8c132dc56e333279512039c7aefb5f4cdd3f0)
