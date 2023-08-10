@@ -1,3 +1,7 @@
+## 1.1.0 `10 Aug 2023`
+
+- [8854f0c](https://github.com/usernamehw/vscode-theme-prism/commit/8854f0caeddff8ebd1c58c8116fce2cfca646275)
+
 ## 1.0.8 `20 Aug 2021`
 
 - 🤷‍♂️ Add header with `light` word in its name to README, maybe extension will be higher in marketplace serach?
