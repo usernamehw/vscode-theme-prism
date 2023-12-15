@@ -8,3 +8,4 @@ package-lock.json
 .gitattributes
 
 img/react_example.png
+demo/
