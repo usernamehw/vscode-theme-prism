@@ -14,7 +14,7 @@
 		"url": "https://github.com/usernamehw/vscode-theme-prism/issues"
 	},
 	"engines": {
-		"vscode": "^1.30.0"
+		"vscode": "^1.66.0"
 	},
 	"qna": false,
 	"keywords": [
